@@ -7,6 +7,7 @@ int main(int argc, char *argv[])
 	int num = 114514;
 	for(int i = 0; i < num; i++)
 		i += i*7%233;
+	cout << num;
 	
 	return 0;
 }
